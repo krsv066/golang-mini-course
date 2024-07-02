@@ -2,11 +2,12 @@ package main
 
 import "fmt"
 
-func add(lhs int, rhs int) int {
+func Add(lhs int, rhs int) int {
 	return lhs + rhs
 }
 
 func main() {
-	s := add(-2, 5)
-	fmt.Println(s)
+	var a, b int
+	fmt.Scan(&a, &b)
+	fmt.Println(Add(a, b))
 }
