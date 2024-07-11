@@ -1,3 +1,3 @@
-package db
+package dto
 
 var AllAccounts = NewAS()
