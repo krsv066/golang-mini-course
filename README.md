@@ -1,1 +1,1 @@
-HSE golang minicourse
+# HSE golang minicourse
